@@ -27,7 +27,7 @@ public:
     
     int numWays(int steps, int arrLen) {
         
-        arrLen = min(arrLen, steps/2+1);
+        arrLen = min(arrLen, steps);
 
         /*
             Also if you notice, you can only move away from 0 in the array by at max steps/2 to come back to 0
